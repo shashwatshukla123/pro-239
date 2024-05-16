@@ -1,0 +1,29 @@
+PRO-C239: SECURE CODE REVIEW
+
+The causes for the SQL Injection are:--
+  The SQL language is not too secure to build a program because its security can be overpassed by writing a part of code that satisfies the requirements of the SQL query.
+How could you avoid it?
+  We can overcome it by using SQLAlchemy which works in the following way:--
+    The SQLAlchemy SQL Toolkit and Object Relational Mapper is a comprehensive set of tools for working with databases and Python. 
+    It has several distinct areas of functionality which can be used individually or combined.
+    SQLAlchemy provides a small secure code to build strong programs.
+
+The causes for the IDOR Attack are:--
+  The IDOR Attack can be performed by ticking the URL. since in program code the request is asked from the URL itself
+How could you avoid it?
+  We can avoid it by making a session in our code so that one direct request can be made from the URL itself.
+
+The cause for the Authorisation Issue on the Profile page:--
+  This issue is because the Profile page is designed using SQL which can easily be bypassed using specific values.
+How could you avoid it?
+  We can use another language other than SQL
+
+The cause of the Phishing attack and how could you avoid it?
+  It occurs due to the uploading of unauthorized files on the sites which can be stopped by specifying a few valid extensions for the uploading of the files.
+
+Identify and write a different way of solving any of the above or any other vulnerabilities that were not discussed in the class.
+
+Ways to prevent coloning of webpages/websites.
+  We can use an iframe to design our Web pages.
+
+
